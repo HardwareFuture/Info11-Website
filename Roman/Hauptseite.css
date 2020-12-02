@@ -1,0 +1,23 @@
+*{
+  color: white;
+  font-family: Helvetica, sans-serif;
+  backdrop-filter: blur(10px);
+}
+.title {
+  font-family:  Helvetica, sans-serif;
+}
+.list {
+  font-family: Helvetica, sans-serif;
+}
+.list-bg { 
+  width: 35%;
+  margin: auto;
+  margin-left: 0px;
+  border: 1px solid white;
+  padding-left: 5px;
+}
+.backround{
+  background-image: url('https://www.mpg.de/14642391/header_image-1585751733.jpg?t=eyJ3aWR0aCI6ODQ4LCJvYmpfaWQiOjE0NjQyMzkxfQ==--aa9f6b4d5cf8e8e6826c3e5700f954c47269b16a');
+  background-size: cover; 
+}
+

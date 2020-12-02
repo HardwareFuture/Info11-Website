@@ -2,11 +2,47 @@
   display: flex;
 }
 .background {
-
+  background-image: url('https://cdn3.carinet.de/documents/thumbs/-1251485054_20201203094807_0x0_NotSet_0_0.jpg');
+  background-size: cover;
 }
 .header {
-
+  font-family: Helvetica, sans-serif;
+  color: white;
+  margin: auto;
+}
+.header-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-left: 20px solid white;
+  margin: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+.options {
+  background-color: rgba(50, 50, 50, 0.8);
+  font-family: Helvetica, sans-serif;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 5px solid rgb(255, 190, 190);
+}
+.options:hover {
+  background-color: rgba(50, 0, 0, 0.8);
+  border-left-color: red;
+}
+.options-bg {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), transparent, transparent, transparent, transparent);
+  margin: 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  border-left: 10px solid white;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 10px;
 }
 .icon {
-  height: 40px;
+  height: 100px;
+  margin: 10px;
+  background-color: black;
+  border-radius: 15px;
 }
