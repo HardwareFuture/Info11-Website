@@ -13,6 +13,7 @@
 .background {
   background-image: url('/corona.jpg');
   position: fixed;
+  background-size: cover;
   top: 0px;
   bottom: 0px;
   right: 0px;
@@ -65,6 +66,14 @@
   padding: 5px;
   padding-left: 12px;
   padding-right: 10px;
+}
+.options-link {
+  text-decoration: none;
+  color: white;
+}
+.options-link:hover {
+  text-decoration: underline;
+  border-color: rgb(255, 179, 179);
 }
 
 /* an animation that makes the border colors alternate between red and white */

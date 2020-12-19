@@ -5,6 +5,7 @@ body {
 .main-bg {
   background-image: url('/corona.jpg');
   position: fixed;
+  background-size: cover;
   top: 0px;
   bottom: 0px;
   right: 0px;
